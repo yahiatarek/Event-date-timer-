@@ -1,0 +1,127 @@
+.sideBar {
+  background-color: #333;
+}
+.open {
+  cursor: pointer;
+}
+.openSideBar {
+  position: absolute;
+  width: 300px;
+  z-index: 1000;
+}
+.spans div {
+  width: 40px;
+  background-color: white;
+  height: 5px;
+  border-radius: 1.2rem;
+  -webkit-border-radius: 1.2rem;
+  -moz-border-radius: 1.2rem;
+  -ms-border-radius: 1.2rem;
+  -o-border-radius: 1.2rem;
+}
+.sideBar a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  font-size: 1.5rem;
+  transition: color 0.5s;
+  -webkit-transition: color 0.5s;
+  -moz-transition: color 0.5s;
+  -ms-transition: color 0.5s;
+  -o-transition: color 0.5s;
+}
+.sideBar i {
+  font-weight: 600;
+  font-size: 1.3rem;
+  cursor: pointer;
+  transition: color 0.5s;
+  -webkit-transition: color 0.5s;
+  -moz-transition: color 0.5s;
+  -ms-transition: color 0.5s;
+  -o-transition: color 0.5s;
+}
+.sideBar a:hover,
+.sideBar i:hover {
+  color: rgba(214, 46, 51, 0.4);
+}
+#intro {
+  background-image: url("../img/events-heavenly-header.jpg");
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+}
+#intro button {
+  z-index: 10000000;
+  bottom: 40px;
+  right: 40px;
+  background-color: rgba(214, 46, 51);
+  display: none;
+}
+.overlayDiv {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(214, 46, 51, 0.6);
+}
+.timeOverlayDiv {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(214, 46, 51, 0.6);
+}
+.timeDiv {
+  position: relative;
+  background-image: url("../img/invitation-2508607__340.jpg");
+  background-position: center center;
+  background-size: cover;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+.expired {
+  position: absolute;
+  z-index: 100000;
+}
+.singerClass {
+  background-color: #e68285;
+  color: white;
+  cursor: pointer;
+  border-radius: 1.5rem;
+  -webkit-border-radius: 1.5rem;
+  -moz-border-radius: 1.5rem;
+  -ms-border-radius: 1.5rem;
+  -o-border-radius: 1.5rem;
+}
+.singerDetails {
+  background-color: #ccc;
+  display: none;
+  border-radius: 1.5rem;
+  -webkit-border-radius: 1.5rem;
+  -moz-border-radius: 1.5rem;
+  -ms-border-radius: 1.5rem;
+  -o-border-radius: 1.5rem;
+  margin-bottom: 1.2rem;
+}
+.formIcons i {
+  border: 1px solid #999;
+  transition: all 0.7s ease-out;
+  cursor: pointer;
+  text-align: center;
+  -webkit-transition: all 0.7s ease-out;
+  -moz-transition: all 0.7s ease-out;
+  -ms-transition: all 0.7s ease-out;
+  -o-transition: all 0.7s ease-out;
+}
+.formIcons i:hover {
+  color: #fff;
+  background-color: #d62e33;
+  border: 1px solid #d62e33;
+}
+#characters span {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: red;
+}
